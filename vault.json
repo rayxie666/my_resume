@@ -1,14 +1,3 @@
 {
-  "categories": [
-    {
-      "id": 3,
-      "name": "Test12",
-      "slug": "3-test12"
-    },
-    {
-      "id": 2,
-      "name": "Test",
-      "slug": "2-test"
-    }
-  ]
+  "categories": []
 }
