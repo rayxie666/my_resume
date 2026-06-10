@@ -1,0 +1,181 @@
+ \documentclass[letterpaper,11pt]{article}
+
+  \usepackage{latexsym}
+  \usepackage[empty]{fullpage}
+  \usepackage{titlesec}
+  \usepackage{marvosym}
+  \usepackage[usenames,dvipsnames]{color}
+  \usepackage{verbatim}
+  \usepackage{enumitem}
+  \usepackage[hidelinks]{hyperref}
+  \usepackage{fancyhdr}
+  \usepackage[english]{babel}
+  \usepackage{tabularx}
+  \usepackage{fontawesome5}
+  \usepackage{multicol}
+  \usepackage{comment}
+  \usepackage[export]{adjustbox}
+  \usepackage{graphicx}
+  \usepackage{geometry}
+  \setlength{\multicolsep}{-3.0pt}
+  \setlength{\columnsep}{-1pt}
+  \input{glyphtounicode}
+
+  \geometry{a4paper, left=22mm, right=22mm, top=24mm}
+
+  \pagestyle{fancy}
+  \fancyhf{}
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+
+  \addtolength{\oddsidemargin}{-0.6in}
+  \addtolength{\evensidemargin}{-0.5in}
+  \addtolength{\textwidth}{1.19in}
+  \addtolength{\topmargin}{-.7in}
+  \addtolength{\textheight}{1.4in}
+
+  \urlstyle{same}
+  \raggedbottom
+  \raggedright
+  \setlength{\tabcolsep}{0in}
+
+  \titleformat{\section}{
+    \scshape\raggedright\large\bfseries
+  }{}{0em}{}[\color{black}\titlerule ]
+
+  \pdfgentounicode=1
+
+  \newcommand{\resumeItem}[1]{
+    \item\scriptsize{ {#1 } }
+  }
+  \newcommand{\companyLogo}[1]{\includegraphics[height=1em, valign=c]{#1}}
+  \newcommand{\resumeSubheading}[4]{
+    \item
+      \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \textit{\small#3} & \textit{\small #4} \\
+      \end{tabular*}
+  }
+  \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+  \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+  \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in,
+  label={}]}
+  \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+  \newcommand{\resumeItemListStart}{\begin{itemize}}
+  \newcommand{\resumeItemListEnd}{\end{itemize}}
+
+  \begin{document}
+
+  \begin{center}
+      {\LARGE \scshape zherui xie} \\
+      \small
+      \raisebox{-0.1\height}\faPhone\ (669)669-1518 ~
+  \href{mailto:ray.xie20@gmail.com}{\raisebox{-0.2\height}\faEnvelope\
+  \underline{ray.xie20@gmail.com}} ~ \raisebox{-0.1\height}\faLinkedin\
+  \href{https://www.linkedin.com/in/rayxie9/}{www.linkedin.com/in/rayxie9/}
+  \end{center}
+
+  \section{Education}
+  \large
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {Carnegie Mellon University}{Jan 2023 -- May 2024}
+        {Master of Science in Software Engineering}{}
+         {\textbf{Courses}: Foundations of Software Engineering, Software
+  Design \& Architecture, Data Science, Cloud Computing}{}
+         {\textbf{Activities}: Teaching Assistant of Data Science (18668)}{}
+      \resumeSubheading
+        {University of California, Davis}{Sep 2018 -- Sep 2021}
+        {Bachelor of Science in Computer Science}{}
+         {\textbf{Courses}: Algorithm Design, Data Structures, Operating
+  Systems}{}
+         {\textbf{Activities}: Academic Tutor of Computer Science Department}{}
+    \resumeSubHeadingListEnd
+
+  \section{Skills}
+   \begin{itemize}[leftmargin=0.15in, label={}]
+  \small
+  {\item{
+      \textbf{Programming}{: Python, C/C++, Golang, Java, JavaScript(ES6),
+  TypeScript}\\
+      \textbf{Database}{: MySQL, Redis, Postgres, ElasticSearch, SQLite, Neo4j,
+   MongoDB}\\
+      \textbf{Tools}{: Docker, Kubernetes, Terraform, GCP, AWS, Azure, Jenkins,
+   CI/CD, Hadoop}\\
+      \textbf{Framework}{: Kitex, Hertz, Node.js, Express.js, Protobuf,
+  SpringBoot, SpringCloud, gRPC}\\
+  }}
+   \end{itemize}
+
+  \section{Experience}
+  \large
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {\companyLogo{bytedance.png}ByteDance Inc.}{Jun 2025 -- Current}
+        {Software Engineer}{San Jose, CA}
+        \resumeItemListStart
+          \resumeItem{Developed and optimized an internal workflow for the
+  Effect creation, accelerating video effect upload speed by \textbf{5x}, which
+   significantly boosted TikTok creators' engagement and encouraged the
+  creation of more video effects.}
+          \resumeItem{This enhancement significantly boosted TikTok creators'
+  engagement, encouraging the creation of more video effects and driving
+  platform growth.}
+        \resumeItemListEnd
+      \resumeSubheading
+        {\companyLogo{bytedance.png}ByteDance Inc.}{Jun 2024 -- Jun 2025}
+        {Site Reliablity Engineer}{San Jose, CA}
+        \resumeItemListStart
+          \resumeItem{Conducted regular server monitoring to ensure optimal
+  performance and stability, with a focus on CPU usage, memory consumption, and
+   disk I/O.}
+          \resumeItem{Implemented automated alerts for anomalies, reducing
+  incident response time by 30\% and improving system uptime to 99.9\%.}
+          \resumeItem{Developed an Internal Server Capacity Platform: Created a
+   system to monitor and visualize server utilization for each micro services.}
+          \resumeItem{Supported Peak Sales: Managed server resources during
+  mid-year and Black Friday sales, aiding in reaching a new history GMV
+  \textbf{2.5} times than the previous year.}
+          \resumeItem{Ensured Stability: Maintained server resources with zero
+  incidents during duty periods.}
+        \resumeItemListEnd
+      \resumeSubheading
+        {\companyLogo{cmu.png}CyLab Security \& Privacy Institute, CMU}{May
+  2023 -- Dec 2023}
+        {Software Engineer Intern}{Pittsburgh, PA}
+        \resumeItemListStart
+          \resumeItem{Led a team of \textbf{3 members} to develop Web Apps for
+  \textbf{Walmart} for inventory management, boosting their retail management
+  efficiency \textbf{20x}.}
+          \resumeItem{Designed a bar-code extractor from video streams that
+  handles over \textbf{2,000} samples daily, which reduces entry time by
+  \textbf{90\%} and boosting product management efficiency \textbf{4x}.}
+          \resumeItem{Incorporated front-end image processing using
+  \textbf{TypeScript}, eliminating data transfers and offloading server
+  computations, which resulted in a \textbf{50\%} decrease in server load
+  compared to a back-end approach.}
+          \resumeItem{Leveraged \textbf{Agile} methodologies in development by
+  using \textbf{Kanban} to manage tasks, and adding to-do lists to each daily
+  scrum leading to \textbf{20\%} less iteration cycles.}
+          \resumeItem{Deployed the app successfully on the server, enabling
+  widespread usage and consistently benefiting over \textbf{50} staff members.}
+        \resumeItemListEnd
+      \resumeSubheading
+        {\companyLogo{cnpc.png}China National Petroleum Corporation}{Aug 2022
+  -- Dec 2022}
+        {Software Engineer}{Chengdu, China}
+        \resumeItemListStart
+          \resumeItem{Optimized a \textbf{20-year-old} back-end system using
+  \textbf{Java} for large-scale oilfield data management to process
+  \textbf{terabyte-scale} data.}
+          \resumeItem{Organized daily Scrum meetings, collaborated with
+  petroleum engineers to ensure a deep understanding of and alignment with
+  their requirements, enhanced project usability and efficiency.}
+          \resumeItem{Analyzed and optimized the original database schema
+  tailored to petroleum data, resulting in a \textbf{30\%} improvement in data
+  querying speed, which increased operational efficiency.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+  \end{document}
