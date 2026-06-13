@@ -1,9 +1,14 @@
 {
-  "id": 3,
-  "category_id": 2,
+  "id": 2,
+  "category_id": 1,
   "name": "Latex",
   "kind": "latex",
   "notes": null,
+  "assets": [
+    "bytedance.png",
+    "cmu.png",
+    "cnpc.png"
+  ],
   "created_at": "2026-06-09 04:45:43",
   "updated_at": "2026-06-09 09:19:49"
 }

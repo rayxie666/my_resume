@@ -1,9 +1,10 @@
 {
   "id": 4,
-  "category_id": 2,
+  "category_id": 1,
   "name": "Test",
   "kind": "latex",
   "notes": null,
+  "assets": [],
   "created_at": "2026-06-09 05:04:08",
   "updated_at": "2026-06-09 05:04:08"
 }
