@@ -1,0 +1,10 @@
+{
+  "checkpoints": [
+    {
+      "seq": 1,
+      "note": "asdasd",
+      "created_at": "2026-06-13 08:50:46",
+      "content": "%----------------------------------------------------------------------------------------\n%\tMedium Length Professional CV\n%\tresume.cls is provided by Resume Vault — do not delete \\documentclass{resume}\n%----------------------------------------------------------------------------------------\n\n\\documentclass[11pt]{resume}\n\\usepackage{ebgaramond}\n\n\\name{Hu Wei}\n\\address{Mountain View, CA}\n\\address{(000)~$\\cdot$~000~$\\cdot$~0000 \\\\ you@example.com}\n\n\\begin{document}\n\n\\begin{rSection}{Education}\n    \\textbf{Your University} \\hfill \\textit{Graduation Year} \\\\\n    Degree \\\\\n    GPA: x.xx\n\\end{rSection}\n\n\\begin{rSection}{Experience}\n\n    \\begin{rSubsection}{Company A}{Start -- Present}{Role}{Location}\n        \\item Achievement or responsibility number one.\n        \\item Achievement or responsibility number two.\n    \\end{rSubsection}\n\n    \\begin{rSubsection}{Company B}{Start -- End}{Role}{Location}\n        \\item Achievement or responsibility number one.\n        \\item Achievement or responsibility number two.\n    \\end{rSubsection}\n\n\\end{rSection}\n\n\\begin{rSection}{Technical Strengths}\n\n    \\begin{tabular}{@{} >{\\bfseries}l @{\\hspace{6ex}} l @{}}\n        Languages    & Python, TypeScript, Go \\\\\n        Databases    & PostgreSQL, Redis \\\\\n        Tools        & Docker, Kubernetes, Git\n    \\end{tabular}\n\n\\end{rSection}\n\n\\end{document}\n"
+    }
+  ]
+}
