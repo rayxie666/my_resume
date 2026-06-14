@@ -1,12 +1,12 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": 2,
       "name": "General SDE",
       "slug": "2-test"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Test12",
       "slug": "3-test12"
     }
